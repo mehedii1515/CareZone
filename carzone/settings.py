@@ -18,7 +18,8 @@ SECRET_KEY = 'SECRET_KEY'
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = env.bool("DEBUG")
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1').split(',')
+# ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1').split(',')
+ALLOWED_HOSTS = [ 'carzone-00ph.onrender.com','127.0.0.1', 'localhost']
 DEBUG = True  # Set to False in production
 # ALLOWED_HOSTS = ['carzone-x3f8.onrender.com']
 
